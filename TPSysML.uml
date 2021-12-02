@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_ffvO8EhUEeyVWaD91jZ64A" name="TPSysML" visibility="public">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_foKLIEhUEeyVWaD91jZ64A">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_foka0EhUEeyVWaD91jZ64A">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Xivb0EhXEeynufGhypN34w" name="ActionLevierBas"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ry3tIEhXEeynufGhypN34w" name="ActionLevierHaut"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ASjdYEhYEeynufGhypN34w" name="BlocageLevierBAS"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JmAlwEhYEeynufGhypN34w" name="BlocageLevierHaut"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_g6kRYEhYEeynufGhypN34w" name="InfosEtatSante"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_yTP0cEhYEeynufGhypN34w" client="_g6kRYEhYEeynufGhypN34w" supplier="_QTyFUEhYEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AP8_4EhZEeynufGhypN34w" name="InfosEtatRouesPortes"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_RY2agEhZEeynufGhypN34w" client="_AP8_4EhZEeynufGhypN34w" supplier="_ffvO8EhUEeyVWaD91jZ64A"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_joCHwEhZEeynufGhypN34w" name="SignalRouesSorties"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_0WiscEhZEeynufGhypN34w" client="_joCHwEhZEeynufGhypN34w" supplier="_AP8_4EhZEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_F5lscEhaEeynufGhypN34w" name="SignalOperationEnCours"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_SAEWEEhaEeynufGhypN34w" client="_F5lscEhaEeynufGhypN34w" supplier="_ffvO8EhUEeyVWaD91jZ64A"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_fqXi4EhaEeynufGhypN34w" name="SignalFermer"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_uw2Z0EhaEeynufGhypN34w" client="_fqXi4EhaEeynufGhypN34w" supplier="_AP8_4EhZEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bpBX4EhbEeynufGhypN34w" name="SignalModeErreur"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_nTieQEhbEeynufGhypN34w" name="" client="_bpBX4EhbEeynufGhypN34w" supplier="_AP8_4EhZEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qIDNQEhbEeynufGhypN34w" name="LevierPresent"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_2VjE4EhbEeynufGhypN34w" name="" client="_qIDNQEhbEeynufGhypN34w" supplier="_Xivb0EhXEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7Z9Z8EhbEeynufGhypN34w" name="SignalErreur"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_DFosMEhcEeynufGhypN34w" name="" client="_7Z9Z8EhbEeynufGhypN34w" supplier="_g6kRYEhYEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_GmYPEEhcEeynufGhypN34w" name="ActionHydrauliqueSecours"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_n9eWoEhcEeynufGhypN34w" name="Manette circuit hydraulique"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ugpvwEhcEeynufGhypN34w" name="" client="_n9eWoEhcEeynufGhypN34w" supplier="_GmYPEEhcEeynufGhypN34w"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_4X3jEEk5Eeyo57HpuadYQQ" name="" client="_gef6MEk5Eeyo57HpuadYQQ" supplier="_8uxuYEk4Eeyo57HpuadYQQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QTyFUEhYEeynufGhypN34w" name="InfosSysteme"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_eOkCcEk6Eeyo57HpuadYQQ" name="" client="_8uxuYEk4Eeyo57HpuadYQQ" supplier="_tmuxMEk4Eeyo57HpuadYQQ"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ki9dsEk-Eeyp1sCWXsjhJQ" name="DeriveReqt43" client="_YTXvAEk9Eeyp1sCWXsjhJQ" supplier="_8uxuYEk4Eeyo57HpuadYQQ"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_y_18MEk-Eeyp1sCWXsjhJQ" name="Exigences Utilisateur (BESOIN)">
+      <packagedElement xmi:type="uml:Class" xmi:id="_YTXvAEk9Eeyp1sCWXsjhJQ" name="Controle"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8uxuYEk4Eeyo57HpuadYQQ" name="ControleRoues"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tmuxMEk4Eeyo57HpuadYQQ" name="Atterissage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gef6MEk5Eeyo57HpuadYQQ" name="Informations">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_w1W-cEk6Eeyo57HpuadYQQ" name="InformationsPosition"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_7nlAUEk5Eeyo57HpuadYQQ" name="Panne"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_XncLMEk_Eeyp1sCWXsjhJQ" name="Pilote"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_y1liEElAEeyp1sCWXsjhJQ" name="Verification de la disponibilité des roues"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zFVOQElAEeyp1sCWXsjhJQ" name="Activation du levier vers le bas">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5IqiUUlDEeyp1sCWXsjhJQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zTdw4ElAEeyp1sCWXsjhJQ" name="Contrôle du lancement de la commande"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OTpkQElCEeyp1sCWXsjhJQ" memberEnd="_OTpkQ0lCEeyp1sCWXsjhJQ _OTqLUElCEeyp1sCWXsjhJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OTpkQUlCEeyp1sCWXsjhJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OTpkQklCEeyp1sCWXsjhJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OTpkQ0lCEeyp1sCWXsjhJQ" name="verification de la disponibilité des roues" type="_y1liEElAEeyp1sCWXsjhJQ" association="_OTpkQElCEeyp1sCWXsjhJQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OTqLUElCEeyp1sCWXsjhJQ" name="pilote" type="_XncLMEk_Eeyp1sCWXsjhJQ" association="_OTpkQElCEeyp1sCWXsjhJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_QvLLgElCEeyp1sCWXsjhJQ" memberEnd="_QvLykUlCEeyp1sCWXsjhJQ _QvLykklCEeyp1sCWXsjhJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QvLLgUlCEeyp1sCWXsjhJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QvLykElCEeyp1sCWXsjhJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QvLykUlCEeyp1sCWXsjhJQ" name="activation du levier" type="_zFVOQElAEeyp1sCWXsjhJQ" association="_QvLLgElCEeyp1sCWXsjhJQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QvLykklCEeyp1sCWXsjhJQ" name="pilote" type="_XncLMEk_Eeyp1sCWXsjhJQ" association="_QvLLgElCEeyp1sCWXsjhJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_RlVXcElCEeyp1sCWXsjhJQ" memberEnd="_RlWlkElCEeyp1sCWXsjhJQ _RlWlkUlCEeyp1sCWXsjhJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RlV-gElCEeyp1sCWXsjhJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RlV-gUlCEeyp1sCWXsjhJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RlWlkElCEeyp1sCWXsjhJQ" name="contrôle du lancement de la commande" type="_zTdw4ElAEeyp1sCWXsjhJQ" association="_RlVXcElCEeyp1sCWXsjhJQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RlWlkUlCEeyp1sCWXsjhJQ" name="pilote" type="_XncLMEk_Eeyp1sCWXsjhJQ" association="_RlVXcElCEeyp1sCWXsjhJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YhqQYElCEeyp1sCWXsjhJQ" name="Activation du levier vers le haut">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6d7sIElDEeyp1sCWXsjhJQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Z2tXwElCEeyp1sCWXsjhJQ" memberEnd="_Z2t-0UlCEeyp1sCWXsjhJQ _Z2t-0klCEeyp1sCWXsjhJQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z2tXwUlCEeyp1sCWXsjhJQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z2t-0ElCEeyp1sCWXsjhJQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Z2t-0UlCEeyp1sCWXsjhJQ" name="levierhaut" type="_YhqQYElCEeyp1sCWXsjhJQ" association="_Z2tXwElCEeyp1sCWXsjhJQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Z2t-0klCEeyp1sCWXsjhJQ" name="pilote" type="_XncLMEk_Eeyp1sCWXsjhJQ" association="_Z2tXwElCEeyp1sCWXsjhJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_27698ElDEeyp1sCWXsjhJQ" name="Blocage de la commande 0.4s">
+      <extend xmi:type="uml:Extend" xmi:id="_5IqiUElDEeyp1sCWXsjhJQ" extendedCase="_zFVOQElAEeyp1sCWXsjhJQ" extensionLocation="_5IqiUUlDEeyp1sCWXsjhJQ"/>
+      <extend xmi:type="uml:Extend" xmi:id="_6d7FEElDEeyp1sCWXsjhJQ" extendedCase="_YhqQYElCEeyp1sCWXsjhJQ" extensionLocation="_6d7sIElDEeyp1sCWXsjhJQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4T4VUFOJEeykvMv8yqAefg" name="Interface">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hPXbYFOKEeykvMv8yqAefg" name="led" type="_AiWyoFOKEeykvMv8yqAefg" aggregation="composite" association="_hPQtsFOKEeykvMv8yqAefg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hPZQkFOKEeykvMv8yqAefg" value="3"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hPZ3oFOKEeykvMv8yqAefg" value="3"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_r1-YQVOLEeykvMv8yqAefg" name="levier" type="_U8bDEFOKEeykvMv8yqAefg" aggregation="composite" association="_r19KIFOLEeykvMv8yqAefg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AiWyoFOKEeykvMv8yqAefg" name="LED">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_v_tDMFOKEeykvMv8yqAefg" name="couleur" type="_2-KqIFOKEeykvMv8yqAefg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Dtz6oFONEeykvMv8yqAefg" name="estAllume">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_P0Kd4FOMEeykvMv8yqAefg" name="allumerLed"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Y2_JQFOMEeykvMv8yqAefg" name="eteindreLed"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_U8bDEFOKEeykvMv8yqAefg" name="Levier">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vpMVwFOMEeykvMv8yqAefg" name="levierEnHaut">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qRzaUFOMEeykvMv8yqAefg" name="leverLevier"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qpoEcFOMEeykvMv8yqAefg" name="baisserLevier"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hPQtsFOKEeykvMv8yqAefg" memberEnd="_hPXbYFOKEeykvMv8yqAefg _hPaesFOKEeykvMv8yqAefg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hPU_IFOKEeykvMv8yqAefg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hPVmMFOKEeykvMv8yqAefg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_hPaesFOKEeykvMv8yqAefg" name="interface" type="_4T4VUFOJEeykvMv8yqAefg" association="_hPQtsFOKEeykvMv8yqAefg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2-KqIFOKEeykvMv8yqAefg" name="Couleur" visibility="public">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_8IfZ8FOKEeykvMv8yqAefg" name="ROUGE"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_PUXY8FOLEeykvMv8yqAefg" name="VERT"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_QirmMFOLEeykvMv8yqAefg" name="ORANGE"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_r19KIFOLEeykvMv8yqAefg" memberEnd="_r1-YQVOLEeykvMv8yqAefg _r1-_UVOLEeykvMv8yqAefg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r19xMFOLEeykvMv8yqAefg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r1-YQFOLEeykvMv8yqAefg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_r1-_UVOLEeykvMv8yqAefg" name="interface" type="_4T4VUFOJEeykvMv8yqAefg" association="_r19KIFOLEeykvMv8yqAefg"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fn66kEhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fn_MAEhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foCPUEhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foC2YEhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foFSoEhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foF5sEhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foF5sUhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foF5skhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foGgwEhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foGgwUhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foHH0EhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foHH0UhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foHH0khUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foHu4EhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foHu4UhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foHu4khUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foIV8EhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foIV8UhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_foI9AEhUEeyVWaD91jZ64A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_foI9AUhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fuX30FOMEeykvMv8yqAefg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fuYe4FOMEeykvMv8yqAefg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_XlX5EEhXEeynufGhypN34w" base_NamedElement="_Xivb0EhXEeynufGhypN34w" id="4.1" text="Lorsque la ligne de commande fonctionne (mode normal), si le levier de commande du train &#xA;d'atterrissage a été abaissée et reste abaissée, les roues seront verrouillés et les portes seront&#xA;vues fermées moins de 15 secondes après que le levier a été poussé." base_Class="_Xivb0EhXEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_ry8loEhXEeynufGhypN34w" base_NamedElement="_ry3tIEhXEeynufGhypN34w" id="4.2" text="Lorsque la ligne de commande fonctionne (mode normal), si le levier de commande du train&#xA;d'atterrissage a été relevée et reste relevée, les roues seront verrouillés et rentrés et les portes&#xA;seront vues fermées moins de 15 secondes après que le levier a été poussé." base_Class="_ry3tIEhXEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_ASqyIEhYEeynufGhypN34w" base_NamedElement="_ASjdYEhYEeynufGhypN34w" id="4.3" text="Lorsque la ligne de commande fonctionne (mode normal), si le levier de commande du train&#xA;d'atterrissage reste en position BAS, la séquence de rentrée n'est pas respectée." base_Class="_ASjdYEhYEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_JmEQIEhYEeynufGhypN34w" base_NamedElement="_JmAlwEhYEeynufGhypN34w" id="4.4" text="Lorsque la ligne de commande fonctionne (mode normal), si le levier de commande du train&#xA;d'atterrissage reste en position UP, la séquence sortante n'est pas observée." base_Class="_JmAlwEhYEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_QT1vsEhYEeynufGhypN34w" base_NamedElement="_QTyFUEhYEeynufGhypN34w" id="4.5" text="Lorsque la ligne de commande fonctionne (mode normal), des informations doivent être&#xA;communiquées au pilote par le système." base_Class="_QTyFUEhYEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_g6mtoEhYEeynufGhypN34w" base_NamedElement="_g6kRYEhYEeynufGhypN34w" id="4.5.1" text="Lorsque la ligne de commande fonctionne (mode normal), des informations doivent être&#xA;communiquées au pilote par le système sur son état de santé." base_Class="_g6kRYEhYEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_yTd24EhYEeynufGhypN34w" base_DirectedRelationship="_yTP0cEhYEeynufGhypN34w" base_Abstraction="_yTP0cEhYEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_AQAqQEhZEeynufGhypN34w" base_NamedElement="_AP8_4EhZEeynufGhypN34w" id="4.5.2" text="Lorsque la ligne de commande fonctionne (mode normal), des informations doivent être&#xA;communiquées au pilote par le système sur la position des roues et l'ouverture des portes." base_Class="_AP8_4EhZEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_RY42wEhZEeynufGhypN34w" base_DirectedRelationship="_RY2agEhZEeynufGhypN34w" base_Abstraction="_RY2agEhZEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_joKDkEhZEeynufGhypN34w" base_NamedElement="_joCHwEhZEeynufGhypN34w" id="4.5.2.1" text="Lorsque la ligne de commande fonctionne (mode normal), si le train d'atterrissage est vérouillé&#xA;en position sortie et les portes fermées, un signal notifie le pilote. (voyant vert allumé)" base_Class="_joCHwEhZEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_0WlIsEhZEeynufGhypN34w" base_DirectedRelationship="_0WiscEhZEeynufGhypN34w" base_Abstraction="_0WiscEhZEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_F5xSoEhaEeynufGhypN34w" base_NamedElement="_F5lscEhaEeynufGhypN34w" id="4.5.2.2" text="Lorsque la ligne de commande fonctionne (mode normal), si le train d'atterrissage n'est pas &#xA;vérouillé ou que les portes sont en mouvements, un signal notifie le pilote.&#xA;(voyant orange allumé)" base_Class="_F5lscEhaEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_SAMR4EhaEeynufGhypN34w" base_DirectedRelationship="_SAEWEEhaEeynufGhypN34w" base_Abstraction="_SAEWEEhaEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_fqgFwEhaEeynufGhypN34w" base_NamedElement="_fqXi4EhaEeynufGhypN34w" id="4.5.2.3" text="Lorsque la ligne de commande fonctionne (mode normal), si le train d'atterrissage est pas &#xA;vérouillé en mode rétracté et que les portes sont fermées tous les signaux sont éteints." base_Class="_fqXi4EhaEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_uw9ukEhaEeynufGhypN34w" base_DirectedRelationship="_uw2Z0EhaEeynufGhypN34w" base_Abstraction="_uw2Z0EhaEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_bpD0IEhbEeynufGhypN34w" base_NamedElement="_bpBX4EhbEeynufGhypN34w" id="4.5.2.4" text="Lorsque la ligne de commande ne fonctionne pas (mode dégradé) si les capteurs fonctionnent toujours, le train d'atterrissage est&#xA;vérouillé en position sortie et les portes fermées, un signal notifie le pilote. (voyant vert allumé)" base_Class="_bpBX4EhbEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_nTpzAEhbEeynufGhypN34w" base_DirectedRelationship="_nTieQEhbEeynufGhypN34w" base_Abstraction="_nTieQEhbEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_qIM-QEhbEeynufGhypN34w" base_NamedElement="_qIDNQEhbEeynufGhypN34w" id="4.1.1" text="L'interface pilote doit comporter un levier de commande avec deux positions." base_Class="_qIDNQEhbEeynufGhypN34w"/>
+  <Requirements:DeriveReqt xmi:id="_2Vs14EhbEeynufGhypN34w" base_DirectedRelationship="_2VjE4EhbEeynufGhypN34w" base_Abstraction="_2VjE4EhbEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_7aHK8EhbEeynufGhypN34w" base_NamedElement="_7Z9Z8EhbEeynufGhypN34w" id="4.5.1.1" text="Lorsque la ligne de commande ne fonctionne pas (mode dégradé) le pilote est notifié.&#xA;(voyant rouge allumé)" base_Class="_7Z9Z8EhbEeynufGhypN34w"/>
+  <Requirements:Refine xmi:id="_DFqhYEhcEeynufGhypN34w" base_DirectedRelationship="_DFosMEhcEeynufGhypN34w" base_Abstraction="_DFosMEhcEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_GmhZAEhcEeynufGhypN34w" base_NamedElement="_GmYPEEhcEeynufGhypN34w" id="4.6" text="Lorsque la ligne de commande ne fonctionne pas (mode dégradé) le pilote peut activer manuellement le circuit hydraulique de&#xA;secours." base_Class="_GmYPEEhcEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_n9gy4EhcEeynufGhypN34w" base_NamedElement="_n9eWoEhcEeynufGhypN34w" id="4.6.1" text="L'interface pilote doit inclure un élément de déclenchement manuel du circuit hydraulique de secours." base_Class="_n9eWoEhcEeynufGhypN34w"/>
+  <Requirements:DeriveReqt xmi:id="_ugwdcEhcEeynufGhypN34w" base_DirectedRelationship="_ugpvwEhcEeynufGhypN34w" base_Abstraction="_ugpvwEhcEeynufGhypN34w"/>
+  <Requirements:Requirement xmi:id="_tnEvcEk4Eeyo57HpuadYQQ" base_NamedElement="_tmuxMEk4Eeyo57HpuadYQQ" id="U1" text="En tant qu'utilisateur je souhaite pouvoir attérir et décoller en toute sécurité" base_Class="_tmuxMEk4Eeyo57HpuadYQQ"/>
+  <Requirements:Requirement xmi:id="_8u4cEEk4Eeyo57HpuadYQQ" base_NamedElement="_8uxuYEk4Eeyo57HpuadYQQ" id="U11" text="En tant que pilote je souhaite pouvoir sortir mes roues lors de l'atterissage et les rentrer après le décollage.&#xA;" base_Class="_8uxuYEk4Eeyo57HpuadYQQ"/>
+  <Requirements:Requirement xmi:id="_gejkkEk5Eeyo57HpuadYQQ" base_NamedElement="_gef6MEk5Eeyo57HpuadYQQ" id="U2" text="En tant que pilote je souhaite avoir des informations en temps réel sur mon système&#xA;&#xA;" base_Class="_gef6MEk5Eeyo57HpuadYQQ"/>
+  <Requirements:DeriveReqt xmi:id="_4X5_UEk5Eeyo57HpuadYQQ" base_DirectedRelationship="_4X3jEEk5Eeyo57HpuadYQQ" base_Abstraction="_4X3jEEk5Eeyo57HpuadYQQ"/>
+  <Requirements:Requirement xmi:id="_7noqsEk5Eeyo57HpuadYQQ" base_NamedElement="_7nlAUEk5Eeyo57HpuadYQQ" id="U21" text="En tant que pilote je veux savoir si il y a une panne dans mon système de train d'atterrissage" base_Class="_7nlAUEk5Eeyo57HpuadYQQ"/>
+  <Requirements:DeriveReqt xmi:id="_eOmesEk6Eeyo57HpuadYQQ" base_DirectedRelationship="_eOkCcEk6Eeyo57HpuadYQQ" base_Abstraction="_eOkCcEk6Eeyo57HpuadYQQ"/>
+  <Requirements:Requirement xmi:id="_w1ZasEk6Eeyo57HpuadYQQ" base_NamedElement="_w1W-cEk6Eeyo57HpuadYQQ" id="U22" text="En tant que pilote je souhaite pouvoir savoir si mes roues sont sorties, rentrées ou en mouvement" base_Class="_w1W-cEk6Eeyo57HpuadYQQ"/>
+  <Requirements:Requirement xmi:id="_YTcngEk9Eeyp1sCWXsjhJQ" base_NamedElement="_YTXvAEk9Eeyp1sCWXsjhJQ" id="U3" text="En tant qu'utilisateur je souhaite que le train d'atterrissage ne réagisse qu'à mes commandes" base_Class="_YTXvAEk9Eeyp1sCWXsjhJQ"/>
+  <Requirements:DeriveReqt xmi:id="_Ki_58Ek-Eeyp1sCWXsjhJQ" base_DirectedRelationship="_Ki9dsEk-Eeyp1sCWXsjhJQ" base_Abstraction="_Ki9dsEk-Eeyp1sCWXsjhJQ"/>
+  <Blocks:Block xmi:id="_4UA4MFOJEeykvMv8yqAefg" base_Class="_4T4VUFOJEeykvMv8yqAefg"/>
+  <Blocks:Block xmi:id="_AieucFOKEeykvMv8yqAefg" base_Class="_AiWyoFOKEeykvMv8yqAefg"/>
+  <Blocks:Block xmi:id="_U8f7kFOKEeykvMv8yqAefg" base_Class="_U8bDEFOKEeykvMv8yqAefg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_oqQfoFOKEeykvMv8yqAefg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_lXFCMFOLEeykvMv8yqAefg"/>
+</xmi:XMI>
