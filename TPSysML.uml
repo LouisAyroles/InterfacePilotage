@@ -100,6 +100,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_oSVbQF50Eeyza5NHzsSBQA" name="CommandPort" type="_ktUR0F5zEeyza5NHzsSBQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_OKbW4F53Eeyza5NHzsSBQA" name="AnalogicalCommandPort" type="_ktUR0F5zEeyza5NHzsSBQA" aggregation="composite"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_qRzaUFOMEeykvMv8yqAefg" name="leverLevier"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_qpoEcFOMEeykvMv8yqAefg" name="baisserLevier"/>
     </packagedElement>
@@ -143,8 +144,8 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_dXYQ8F5xEeyza5NHzsSBQA" name="VERT" type="_AiWyoFOKEeykvMv8yqAefg" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_kYYOgF5xEeyza5NHzsSBQA" name="ORANGE" type="_AiWyoFOKEeykvMv8yqAefg" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_yjqBcF5xEeyza5NHzsSBQA" name="LevierDeCommandeTechnicoFonctionnel" type="_U8bDEFOKEeykvMv8yqAefg" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_E1H7wF50Eeyza5NHzsSBQA" name="DigitalPart2" type="_ktUR0F5zEeyza5NHzsSBQA" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_iDmLoF51Eeyza5NHzsSBQA" name="digitalPart" type="_Kv1KMF51Eeyza5NHzsSBQA"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_LtLRUF53Eeyza5NHzsSBQA" name="AnalogicalPart" type="_ktUR0F5zEeyza5NHzsSBQA" aggregation="composite"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_4CZQIF5zEeyza5NHzsSBQA" name="BindingConnector6">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_4Cgk4F5zEeyza5NHzsSBQA" partWithPort="_kYYOgF5xEeyza5NHzsSBQA" role="_2zd0UF5yEeyza5NHzsSBQA"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_4ChL8F5zEeyza5NHzsSBQA" partWithPort="_iDmLoF51Eeyza5NHzsSBQA" role="_2wnNQF51Eeyza5NHzsSBQA"/>
@@ -160,6 +161,10 @@
       <ownedConnector xmi:type="uml:Connector" xmi:id="_sH8a4F50Eeyza5NHzsSBQA" name="BindingConnector12">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_sIAFQF50Eeyza5NHzsSBQA" partWithPort="_iDmLoF51Eeyza5NHzsSBQA" role="_8ImloF51Eeyza5NHzsSBQA"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_sIAFQV50Eeyza5NHzsSBQA" partWithPort="_yjqBcF5xEeyza5NHzsSBQA" role="_oSVbQF50Eeyza5NHzsSBQA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_UlCp4F53Eeyza5NHzsSBQA" name="BindingConnector11">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_UlEfEF53Eeyza5NHzsSBQA" partWithPort="_yjqBcF5xEeyza5NHzsSBQA" role="_OKbW4F53Eeyza5NHzsSBQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_UlEfEV53Eeyza5NHzsSBQA" role="_LtLRUF53Eeyza5NHzsSBQA"/>
       </ownedConnector>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_ktUR0F5zEeyza5NHzsSBQA" name="Courant Electrique"/>
@@ -281,7 +286,6 @@
   <Blocks:ValueType xmi:id="_ktWuEF5zEeyza5NHzsSBQA" base_DataType="_ktUR0F5zEeyza5NHzsSBQA"/>
   <Blocks:NestedConnectorEnd xmi:id="_4ChL8V5zEeyza5NHzsSBQA" base_Element="_4Cgk4F5zEeyza5NHzsSBQA" propertyPath="_kYYOgF5xEeyza5NHzsSBQA" base_ConnectorEnd="_4Cgk4F5zEeyza5NHzsSBQA"/>
   <Blocks:BindingConnector xmi:id="_4CiaEF5zEeyza5NHzsSBQA" base_Connector="_4CZQIF5zEeyza5NHzsSBQA"/>
-  <PortsAndFlows:FullPort xmi:id="_E1K_EF50Eeyza5NHzsSBQA" base_Port="_E1H7wF50Eeyza5NHzsSBQA"/>
   <Blocks:NestedConnectorEnd xmi:id="_IL5qUl50Eeyza5NHzsSBQA" base_Element="_IL5qUV50Eeyza5NHzsSBQA" propertyPath="_9RkLEF5wEeyza5NHzsSBQA" base_ConnectorEnd="_IL5qUV50Eeyza5NHzsSBQA"/>
   <Blocks:BindingConnector xmi:id="_IL6RYF50Eeyza5NHzsSBQA" base_Connector="_IL2nAF50Eeyza5NHzsSBQA"/>
   <Blocks:NestedConnectorEnd xmi:id="_bDrooF50Eeyza5NHzsSBQA" base_Element="_bDrBkF50Eeyza5NHzsSBQA" propertyPath="_dXYQ8F5xEeyza5NHzsSBQA" base_ConnectorEnd="_bDrBkF50Eeyza5NHzsSBQA"/>
@@ -298,4 +302,8 @@
   <Blocks:NestedConnectorEnd xmi:id="_5q6bMF51Eeyza5NHzsSBQA" base_Element="_4ChL8F5zEeyza5NHzsSBQA" propertyPath="_iDmLoF51Eeyza5NHzsSBQA" base_ConnectorEnd="_4ChL8F5zEeyza5NHzsSBQA"/>
   <PortsAndFlows:FullPort xmi:id="_8IssQF51Eeyza5NHzsSBQA" base_Port="_8ImloF51Eeyza5NHzsSBQA"/>
   <Blocks:NestedConnectorEnd xmi:id="_-jpEsF51Eeyza5NHzsSBQA" base_Element="_sIAFQF50Eeyza5NHzsSBQA" propertyPath="_iDmLoF51Eeyza5NHzsSBQA" base_ConnectorEnd="_sIAFQF50Eeyza5NHzsSBQA"/>
+  <PortsAndFlows:FullPort xmi:id="_LtO7sF53Eeyza5NHzsSBQA" base_Port="_LtLRUF53Eeyza5NHzsSBQA"/>
+  <PortsAndFlows:ProxyPort xmi:id="_OKdMEF53Eeyza5NHzsSBQA" base_Port="_OKbW4F53Eeyza5NHzsSBQA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_UlEfEl53Eeyza5NHzsSBQA" base_Element="_UlEfEF53Eeyza5NHzsSBQA" propertyPath="_yjqBcF5xEeyza5NHzsSBQA" base_ConnectorEnd="_UlEfEF53Eeyza5NHzsSBQA"/>
+  <Blocks:BindingConnector xmi:id="_UlFGIF53Eeyza5NHzsSBQA" base_Connector="_UlCp4F53Eeyza5NHzsSBQA"/>
 </xmi:XMI>
