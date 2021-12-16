@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_ffvO8EhUEeyVWaD91jZ64A" name="TPSysML" visibility="public">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_foKLIEhUEeyVWaD91jZ64A">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -7,31 +7,16 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_foka0EhUEeyVWaD91jZ64A">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Xivb0EhXEeynufGhypN34w" name="ActionLevierBas"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ry3tIEhXEeynufGhypN34w" name="ActionLevierHaut"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ASjdYEhYEeynufGhypN34w" name="BlocageLevierBAS"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_JmAlwEhYEeynufGhypN34w" name="BlocageLevierHaut"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_g6kRYEhYEeynufGhypN34w" name="InfosEtatSante"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_yTP0cEhYEeynufGhypN34w" client="_g6kRYEhYEeynufGhypN34w" supplier="_QTyFUEhYEeynufGhypN34w"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_AP8_4EhZEeynufGhypN34w" name="InfosEtatRouesPortes"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_RY2agEhZEeynufGhypN34w" client="_AP8_4EhZEeynufGhypN34w" supplier="_ffvO8EhUEeyVWaD91jZ64A"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_joCHwEhZEeynufGhypN34w" name="SignalRouesSorties"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_0WiscEhZEeynufGhypN34w" client="_joCHwEhZEeynufGhypN34w" supplier="_AP8_4EhZEeynufGhypN34w"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_F5lscEhaEeynufGhypN34w" name="SignalOperationEnCours"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_SAEWEEhaEeynufGhypN34w" client="_F5lscEhaEeynufGhypN34w" supplier="_ffvO8EhUEeyVWaD91jZ64A"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_fqXi4EhaEeynufGhypN34w" name="SignalFermer"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_uw2Z0EhaEeynufGhypN34w" client="_fqXi4EhaEeynufGhypN34w" supplier="_AP8_4EhZEeynufGhypN34w"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_bpBX4EhbEeynufGhypN34w" name="SignalModeErreur"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_nTieQEhbEeynufGhypN34w" name="" client="_bpBX4EhbEeynufGhypN34w" supplier="_AP8_4EhZEeynufGhypN34w"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_qIDNQEhbEeynufGhypN34w" name="LevierPresent"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_2VjE4EhbEeynufGhypN34w" name="" client="_qIDNQEhbEeynufGhypN34w" supplier="_Xivb0EhXEeynufGhypN34w"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_7Z9Z8EhbEeynufGhypN34w" name="SignalErreur"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_DFosMEhcEeynufGhypN34w" name="" client="_7Z9Z8EhbEeynufGhypN34w" supplier="_g6kRYEhYEeynufGhypN34w"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_GmYPEEhcEeynufGhypN34w" name="ActionHydrauliqueSecours"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_n9eWoEhcEeynufGhypN34w" name="Manette circuit hydraulique"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_ugpvwEhcEeynufGhypN34w" name="" client="_n9eWoEhcEeynufGhypN34w" supplier="_GmYPEEhcEeynufGhypN34w"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_4X3jEEk5Eeyo57HpuadYQQ" name="" client="_gef6MEk5Eeyo57HpuadYQQ" supplier="_8uxuYEk4Eeyo57HpuadYQQ"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_QTyFUEhYEeynufGhypN34w" name="InfosSysteme"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_eOkCcEk6Eeyo57HpuadYQQ" name="" client="_8uxuYEk4Eeyo57HpuadYQQ" supplier="_tmuxMEk4Eeyo57HpuadYQQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ki9dsEk-Eeyp1sCWXsjhJQ" name="DeriveReqt43" client="_YTXvAEk9Eeyp1sCWXsjhJQ" supplier="_8uxuYEk4Eeyo57HpuadYQQ"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_y_18MEk-Eeyp1sCWXsjhJQ" name="Exigences Utilisateur (BESOIN)">
@@ -42,6 +27,14 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_w1W-cEk6Eeyo57HpuadYQQ" name="InformationsPosition"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_7nlAUEk5Eeyo57HpuadYQQ" name="Panne"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_0s90IF5tEeyza5NHzsSBQA" client="_gef6MEk5Eeyo57HpuadYQQ" supplier="_QTyFUEhYEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_5N5osF5tEeyza5NHzsSBQA" client="_7nlAUEk5Eeyo57HpuadYQQ" supplier="_g6kRYEhYEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_50RsMF5tEeyza5NHzsSBQA" client="_7nlAUEk5Eeyo57HpuadYQQ" supplier="_7Z9Z8EhbEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="__2j-wF5tEeyza5NHzsSBQA" client="_w1W-cEk6Eeyo57HpuadYQQ" supplier="_AP8_4EhZEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_KaqPoF5uEeyza5NHzsSBQA" client="_YTXvAEk9Eeyp1sCWXsjhJQ" supplier="_ASjdYEhYEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_LGI1kF5uEeyza5NHzsSBQA" client="_YTXvAEk9Eeyp1sCWXsjhJQ" supplier="_JmAlwEhYEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_MLU8AF5uEeyza5NHzsSBQA" client="_8uxuYEk4Eeyo57HpuadYQQ" supplier="_Xivb0EhXEeynufGhypN34w"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_NJDvkF5uEeyza5NHzsSBQA" client="_8uxuYEk4Eeyo57HpuadYQQ" supplier="_ry3tIEhXEeynufGhypN34w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_XncLMEk_Eeyp1sCWXsjhJQ" name="Pilote"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_y1liEElAEeyp1sCWXsjhJQ" name="Verification de la disponibilité des roues"/>
@@ -122,6 +115,24 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r1-YQFOLEeykvMv8yqAefg" key="nature" value="UML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_r1-_UVOLEeykvMv8yqAefg" name="interface" type="_4T4VUFOJEeykvMv8yqAefg" association="_r19KIFOLEeykvMv8yqAefg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_F-Nu8F5tEeyza5NHzsSBQA" name="Exigences Fonctionnelles">
+      <packagedElement xmi:type="uml:Class" xmi:id="_GmYPEEhcEeynufGhypN34w" name="ActionHydrauliqueSecours"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_n9eWoEhcEeynufGhypN34w" name="Manette circuit hydraulique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7Z9Z8EhbEeynufGhypN34w" name="SignalErreur"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_g6kRYEhYEeynufGhypN34w" name="InfosEtatSante"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QTyFUEhYEeynufGhypN34w" name="InfosSysteme"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_bpBX4EhbEeynufGhypN34w" name="SignalModeErreur"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AP8_4EhZEeynufGhypN34w" name="InfosEtatRouesPortes"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fqXi4EhaEeynufGhypN34w" name="SignalFermer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_F5lscEhaEeynufGhypN34w" name="SignalOperationEnCours"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_joCHwEhZEeynufGhypN34w" name="SignalRouesSorties"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JmAlwEhYEeynufGhypN34w" name="BlocageLevierHaut"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ASjdYEhYEeynufGhypN34w" name="BlocageLevierBAS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Xivb0EhXEeynufGhypN34w" name="ActionLevierBas"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_qIDNQEhbEeynufGhypN34w" name="LevierPresent"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ry3tIEhXEeynufGhypN34w" name="ActionLevierHaut"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_V2KCkF5uEeyza5NHzsSBQA" name="" client="_qIDNQEhbEeynufGhypN34w" supplier="_ry3tIEhXEeynufGhypN34w"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fn66kEhUEeyVWaD91jZ64A">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fn_MAEhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -226,6 +237,5 @@
   <Blocks:Block xmi:id="_4UA4MFOJEeykvMv8yqAefg" base_Class="_4T4VUFOJEeykvMv8yqAefg"/>
   <Blocks:Block xmi:id="_AieucFOKEeykvMv8yqAefg" base_Class="_AiWyoFOKEeykvMv8yqAefg"/>
   <Blocks:Block xmi:id="_U8f7kFOKEeykvMv8yqAefg" base_Class="_U8bDEFOKEeykvMv8yqAefg"/>
-  <PortsAndFlows:ItemFlow xmi:id="_oqQfoFOKEeykvMv8yqAefg"/>
-  <PortsAndFlows:ItemFlow xmi:id="_lXFCMFOLEeykvMv8yqAefg"/>
+  <Requirements:DeriveReqt xmi:id="_V2O7EF5uEeyza5NHzsSBQA" base_DirectedRelationship="_V2KCkF5uEeyza5NHzsSBQA" base_Abstraction="_V2KCkF5uEeyza5NHzsSBQA"/>
 </xmi:XMI>
