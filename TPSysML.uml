@@ -175,6 +175,45 @@
       <ownedAttribute xmi:type="uml:Port" xmi:id="_8ImloF51Eeyza5NHzsSBQA" name="DigitalIn" type="_ktUR0F5zEeyza5NHzsSBQA" aggregation="composite"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_gQDxcF51Eeyza5NHzsSBQA" client="_4T4VUFOJEeykvMv8yqAefg" supplier="_Kv1KMF51Eeyza5NHzsSBQA"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_nFyoQF53Eeyza5NHzsSBQA" name="Interaction48"/>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_Y9FLsF54Eeyza5NHzsSBQA" name="StateWheels">
+      <region xmi:type="uml:Region" xmi:id="_ZqNXcF54Eeyza5NHzsSBQA" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_9QCncF54Eeyza5NHzsSBQA" source="_al1SMF54Eeyza5NHzsSBQA" target="_ewCo0F54Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_rCp0gF55Eeyza5NHzsSBQA" name="ActionLevierHaut" source="_ewCo0F54Eeyza5NHzsSBQA" target="_mye_0F55Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_rnuQcF55Eeyza5NHzsSBQA" name="FinRentreeRoues" source="_mye_0F55Eeyza5NHzsSBQA" target="_BQAc8F55Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_sFyFcF55Eeyza5NHzsSBQA" name="ActionLevierBas" source="_BQAc8F55Eeyza5NHzsSBQA" target="_mye_0F55Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_s07DYF55Eeyza5NHzsSBQA" name="FinSortieRoues" source="_mye_0F55Eeyza5NHzsSBQA" target="_ewCo0F54Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_urEssF55Eeyza5NHzsSBQA" source="_ewCo0F54Eeyza5NHzsSBQA" target="_uC4EQF55Eeyza5NHzsSBQA"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_al1SMF54Eeyza5NHzsSBQA" name="Init101"/>
+        <subvertex xmi:type="uml:State" xmi:id="_ewCo0F54Eeyza5NHzsSBQA" name="RoueBas"/>
+        <subvertex xmi:type="uml:State" xmi:id="_BQAc8F55Eeyza5NHzsSBQA" name="RoueHaut"/>
+        <subvertex xmi:type="uml:State" xmi:id="_mye_0F55Eeyza5NHzsSBQA" name="RoueTransition"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_uC4EQF55Eeyza5NHzsSBQA" name="FinalState10"/>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_FqxioF56Eeyza5NHzsSBQA" name="StateLed">
+      <region xmi:type="uml:Region" xmi:id="_G8__gF56Eeyza5NHzsSBQA">
+        <transition xmi:type="uml:Transition" xmi:id="_zQgxUF56Eeyza5NHzsSBQA" source="_Hv4N8F56Eeyza5NHzsSBQA" target="_KcF8kF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_bh1gEF57Eeyza5NHzsSBQA" name="Erreur&amp;BugCapteur" source="_KcF8kF56Eeyza5NHzsSBQA" target="_KL0r8F56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_fDBH0F57Eeyza5NHzsSBQA" name="Erreur" source="_KcF8kF56Eeyza5NHzsSBQA" target="_JxqfgF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_hfSV8F57Eeyza5NHzsSBQA" name="RentreeRoues" source="_KcF8kF56Eeyza5NHzsSBQA" target="_J-QKAF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_peiEcF57Eeyza5NHzsSBQA" name="RouesRentree" source="_J-QKAF56Eeyza5NHzsSBQA" target="_JkmT4F56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_OE49UF58Eeyza5NHzsSBQA" name="Erreur" source="_J-QKAF56Eeyza5NHzsSBQA" target="_KL0r8F56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_SthVUF58Eeyza5NHzsSBQA" name="Erreur" source="_JkmT4F56Eeyza5NHzsSBQA" target="_KL0r8F56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_mk3TMF58Eeyza5NHzsSBQA" name="SortieRoues" source="_JkmT4F56Eeyza5NHzsSBQA" target="_J-QKAF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_skxAIF58Eeyza5NHzsSBQA" name="RouesSorties" source="_J-QKAF56Eeyza5NHzsSBQA" target="_KcF8kF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_m5iGMF59Eeyza5NHzsSBQA" name="RouesDeployeesAtterissageBug" source="_KL0r8F56Eeyza5NHzsSBQA" target="_IC4pgF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_n2NJ0F59Eeyza5NHzsSBQA" name="AtterrissageBug" source="_JxqfgF56Eeyza5NHzsSBQA" target="_IC4pgF56Eeyza5NHzsSBQA"/>
+        <transition xmi:type="uml:Transition" xmi:id="_opGmYF59Eeyza5NHzsSBQA" name="Atterrissage" source="_KcF8kF56Eeyza5NHzsSBQA" target="_IC4pgF56Eeyza5NHzsSBQA"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_Hv4N8F56Eeyza5NHzsSBQA" name="Initial"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_IC4pgF56Eeyza5NHzsSBQA" name="FinalState"/>
+        <subvertex xmi:type="uml:State" xmi:id="_JkmT4F56Eeyza5NHzsSBQA" name="Eteint"/>
+        <subvertex xmi:type="uml:State" xmi:id="_JxqfgF56Eeyza5NHzsSBQA" name="RougeVert"/>
+        <subvertex xmi:type="uml:State" xmi:id="_J-QKAF56Eeyza5NHzsSBQA" name="Orange"/>
+        <subvertex xmi:type="uml:State" xmi:id="_KL0r8F56Eeyza5NHzsSBQA" name="Rouge"/>
+        <subvertex xmi:type="uml:State" xmi:id="_KcF8kF56Eeyza5NHzsSBQA" name="Vert"/>
+      </region>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fn66kEhUEeyVWaD91jZ64A">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fn_MAEhUEeyVWaD91jZ64A" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
